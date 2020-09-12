@@ -1,0 +1,12 @@
+print("What is Nested Loops and how for loops function to identified column and row")
+
+my_grid_number = [
+
+    [1,2,3,4],
+    [5,6,7,8],
+    [9,10,11,12]
+]
+
+for row in my_grid_number:
+    for column in row:
+        print(column)
