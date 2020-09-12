@@ -1,0 +1,12 @@
+print("How to translate alphabet in phrase")
+
+def change_letter(phrase):
+    to_change_letter = ""
+    for letter in phrase:
+        if letter in "aeiouAEIOU":
+            to_change_letter = to_change_letter + "G"
+        else:
+            to_change_letter = to_change_letter + letter
+    return to_change_letter
+
+print(change_letter(input("Please enter your phrase here: ")))
