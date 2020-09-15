@@ -1,0 +1,14 @@
+class Student:
+
+    def __init__(self, name, major, gpa, is_on_probation):
+        self.name = name
+        self.major = major
+        self.gpa = gpa
+        self.is_on_probation = is_on_probation
+
+from student import Student
+
+student1 = Student("haziq","IT",3.7, False)
+student2 = Student("Abu","science",3.5,True)
+
+print(student2.name)
