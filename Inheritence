@@ -1,0 +1,28 @@
+class chef:
+
+    def make_chicken(self):
+        print("The Chef makes a chicken")
+
+    def make_salad(self):
+        print("The Chef makes a Salad")
+
+    def make_special_dish2(self):
+        print("The chef make a special dish")
+        
+from chinesechef import chinesechef
+mychef = chinesechef()
+
+mychef.make_special_dish2()
+
+from chef import chef
+
+class chinesechef(chef):
+
+
+    def make_special_dish(self):
+        print("The chef make a orange chicken")
+
+    def make_fried_rice(self):
+        print("The chef make a fried rice")
+
+
